@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="nl" style="height: 100%; margin: 0;">
 <head>
     <!-- Meta -->
     <meta charset="UTF-8">
@@ -16,40 +16,28 @@
     <!-- JavaScript -->
     <script src="js/leaflet.js"></script>
 </head>
-<body>
-    <h1>Tressie</h1>
+<body style="height: 100%; margin: 0;">
 
-    <div id="map"></div>
+    <div id="map" style="width: 100%; height: 100%; background: #888888;"></div>
 
-<script>
+<script type="text/javascript">
 
-    //Map//
-    var map = L.map('map').setView([56, 9], 6);
-    L.tileLayer('images/kaart.jpg', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
-    id: 'mapbox/streets-v11',
-    tileSize: 512,
-    zoomOffset: -1,
-    accessToken: 'pk.eyJ1IjoiaXdhbmtyYW1lciIsImEiOiJjbDFua2JhcG0wcTkwM2JxcjViODVnbzZyIn0.ejmMvvXCOu4iLqpc2elEFA'
+
+//Map object//
+var map = L.map('map').setView([0, 0], 1);
+
+//Reference the tiles//
+L.tileLayer('images/maps/{z}/{x}/{y}.png', {
+    minZoom: 1,
+    maxZoom: 4,
+    continuousWorld: false,
+    noWrap: true,
 }).addTo(map);
 
-//marker//
-var marker = L.marker([55, 9]).addTo(map);
+//Markers and Popups//
 
-var circle = L.circle([56, 9], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 10000
-}).addTo(map);
-
-marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
-circle.bindPopup("I am a circle.");
-polygon.bindPopup("I am a polygon.");
 
 </script>
-
 </body>
 
 </html>
