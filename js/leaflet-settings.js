@@ -14,7 +14,7 @@ var map = L.map('map', {
 }).setView([(56.728622, -98.4375), (-57.136239, 98.4375)], 3.25);
 
 // Reference the tiles
-L.tileLayer('images/maps/{z}/{x}/{y}.png', {
+L.tileLayer('images/maps/Map-Europe/{z}/{x}/{y}.png', {
     continuousWorld: false,
     noWrap: true,
 }).addTo(map);
