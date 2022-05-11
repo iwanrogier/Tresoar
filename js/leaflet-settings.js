@@ -19,6 +19,40 @@ L.tileLayer('images/maps/Map-Europe/{z}/{x}/{y}.png', {
     noWrap: true,
 }).addTo(map);
 
+// Frisia icon [DO NOT REMOVE]
+var province = L.icon({
+    iconUrl: '../images/friesland-highlight.png',
+    iconSize:     [71, 82], // size of the icon
+    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+});
+
+L.marker([-22.355421, -13.787869], {icon: province}).addTo(map);
+
+// Frisia polygon
+var polygon = L.polygon([
+    [-12.12113, -10.886387],
+    [-12.886432, -10.781866],
+    [-14.156691, -9.990907],
+    [-16.10918, -10.584397],
+    [-17.674027, -11.931588],
+    [-17.275242, -12.558709],
+    [-17.225333, -13.23809],
+    [-17.275242, -13.865211],
+    [-16.825576, -14.335552],
+    [-16.274533, -14.701372],
+    [-15.066937, -14.649112],
+    [-12.93737, -14.492332],
+    [-12.427522, -14.283292],
+    [-12.07003, -13.603911],
+    [-11.763227, -12.663229],
+    [-11.302384, -11.879328],
+], {
+    weight: 2,
+    color: '#000',
+    fillOpacity: .5,
+    fillColor: '#9c9c9c'
+}).addTo(map);
+
 // Popup with longitude latitude
 function onMapClick(e) {
     alert(e.latlng);
@@ -26,29 +60,7 @@ function onMapClick(e) {
 
 map.on('click', onMapClick);
 
-// Cirkel Nederland
-var circleNL = L.circle([-13.939952, -12.526939], {
-    color: '#FF9B00',
-    weight: 0,
-    fillOpacity: 0,
-    radius: 700000
-}).addTo(map);
-
-circleNL.on('mouseover',function(ev) {
-    this.setStyle({
-        weight: 3,
-        fillOpacity: 0.5,
-    });
-});
-
-circleNL.on('mouseout', function(ev) {
-    this.setStyle({
-        weight: 0,
-        fillOpacity: 0,
-    });
-});
-
-// Cirkel Denemarken
+// Circle Denmark
 var circleDK = L.circle([15.707663, 24.697266], {
     color: '#d1050c',
     fillOpacity: 0.5,
