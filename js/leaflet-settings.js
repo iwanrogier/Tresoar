@@ -46,6 +46,13 @@ var polygon = L.polygon([
     window.open('../friesland.html', '_self');
 }).addTo(map);
 
+/*/ Route #1
+var route1 = [[-1.662955, -31.447108], [25.398461, -40.315937], [15.725426, -14.744146], [28.559319, -13.266008]];
+
+var polyline = L.polyline(route1, {
+    color: 'red'
+}).addTo(map);*/
+
 /*/ Popup with longitude latitude
 function onMapClick(e) {
     alert(e.latlng);
