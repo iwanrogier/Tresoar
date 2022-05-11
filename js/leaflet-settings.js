@@ -19,15 +19,6 @@ L.tileLayer('images/maps/Map-Europe/{z}/{x}/{y}.png', {
     noWrap: true,
 }).addTo(map);
 
-// Frisia icon [DO NOT REMOVE]
-var province = L.icon({
-    iconUrl: '../images/friesland-highlight.png',
-    iconSize:     [71, 82], // size of the icon
-    iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-});
-
-L.marker([-22.355421, -13.787869], {icon: province}).addTo(map);
-
 // Frisia polygon
 var polygon = L.polygon([
     [-12.12113, -10.886387],
