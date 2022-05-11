@@ -29,9 +29,9 @@ var polygon = L.polygon([
     [-17.275242, -12.558709],
     [-17.225333, -13.23809],
     [-17.275242, -13.865211],
-    [-16.825576, -14.335552],
-    [-16.274533, -14.701372],
-    [-15.066937, -14.649112],
+    [-16.825576, -14.25],
+    [-16.274533, -14.8],
+    [-15.066937, -14.7],
     [-12.93737, -14.492332],
     [-12.427522, -14.283292],
     [-12.07003, -13.603911],
@@ -41,20 +41,23 @@ var polygon = L.polygon([
     weight: 2,
     color: '#000',
     fillOpacity: .5,
-    fillColor: '#9c9c9c'
+    fillColor: '#dccca4'
+}).on('click', function() {
+    window.open('../friesland.html', '_self');
 }).addTo(map);
 
-// Popup with longitude latitude
+/*/ Popup with longitude latitude
 function onMapClick(e) {
     alert(e.latlng);
-}
+}*/
 
 map.on('click', onMapClick);
 
 // Circle Denmark
 var circleDK = L.circle([15.707663, 24.697266], {
     color: '#d1050c',
-    fillOpacity: 0.5,
+    weight: 0,
+    fillOpacity: 0,
     radius: 700000
 }).addTo(map);
 
