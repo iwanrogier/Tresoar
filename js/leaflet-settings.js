@@ -60,7 +60,7 @@ var polygon = L.polygon([
     fillOpacity: .5,
     fillColor: '#dccca4'
 }).on('click', function() {
-    window.open('../friesland.html', '_self');
+    window.open('friesland.html', '_self');
 }).addTo(map);
 
 // Circle Denmark
