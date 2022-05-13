@@ -14,3 +14,17 @@ html, body {
     max-width: 1300px;
     margin: 0 auto;
 }
+
+.leaflet-tooltip-right:before,
+.leaflet-pane .leaflet-marker-pane,
+.leaflet-pane .leaflet-shadow-pane {
+    display: none;
+}
+
+.leaflet-tooltip {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    box-shadow: none;
+    font-size: 18px;
+    color: #fff;
+}
