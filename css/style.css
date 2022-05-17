@@ -39,15 +39,21 @@ html, body {
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
+    display: flex;
+    justify-content: center;
   }
 
-  .sidebar-icons a {
+  .sidebar-icons a img {
     fill: #E8E8E8;
-    padding: 6px 8px 6px 16px;
+    padding: 10px 0;
     width: 20px;
     height: 20px;
     text-decoration: none;
-    font-size: 25px;
     display: block;
     z-index: 501;
+  }
+
+  .sidebar-footer {
+      position: absolute;
+      bottom: 50px;
   }
