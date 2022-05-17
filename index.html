@@ -13,16 +13,33 @@
     <link rel="stylesheet" href="css/leaflet.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Plugin stylesheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v5.3.2/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="css/plugins/ol3-sidebar.min.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
     <!-- JavaScript -->
     <script src="js/leaflet.js"></script>
 </head>
 <body>
     <div class="container">
-        <div id="map"></div>
+        <div id="map" class="sidebar-map"></div>
+    </div>
+
+    <div id="sidebar" class="sidebar collapsed">
+        <div class="sidebar-tabs">
+            <ul role="tablist">
+              <li><a href="#home" role="tab"><i class="fa fa-bars"></i></a></li>
+            </ul>
+          </div>
     </div>
 
     <!-- Leaflet JS -->
     <script src="js/leaflet-settings.js"></script>
+
+    <!-- Plugin JS -->
+    <script src="js/plugins/ol3-sidebar.min.js"></script>
 </body>
 
 </html>
