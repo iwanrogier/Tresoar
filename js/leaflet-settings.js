@@ -63,28 +63,6 @@ var polygon = L.polygon([
     window.open('friesland.html', '_self');
 }).addTo(map);
 
-// Circle Denmark
-var circleDK = L.circle([15.707663, 24.697266], {
-    color: '#d1050c',
-    weight: 0,
-    fillOpacity: 0,
-    radius: 700000
-}).addTo(map);
-
-circleDK.on('mouseover',function(ev) {
-    this.setStyle({
-        weight: 3,
-        fillOpacity: 0.5,
-    });
-});
-
-circleDK.on('mouseout', function(ev) {
-    this.setStyle({
-        weight: 0,
-        fillOpacity: 0,
-    });
-});
-
 // North Sea label
 var northSea = L.marker([2.327145, -26.717066]).bindTooltip('Noordzee').addTo(map);
 northSea.openTooltip();
