@@ -21,7 +21,7 @@
     <div id="map"></div>
 
     <!-- Navigation -->
-    <div id="mySidebar" class="sidebar">
+    <div class="sidebar">
         <div id="buttons" class="sidebar-icons">
             <a href="#"><img src="images/icons/selector.svg" width="20" height="20"></img></a>
             <a href="#"><img src="images/icons/layers.svg" width="20" height="20"></img></a>
@@ -35,15 +35,19 @@
     </div>
 
     <!-- Expanded sidebar -->
-    <div id="expandedSidebar" class="expanded-sidebar">
-        <div class="expanded-icons">
-            <a href="#"><img src="images/icons/pin.svg" width="20" height="20"></img></a>
-            <a href="#"><img src="images/icons/share.svg" width="20" height="20"></img></a>
-            <a href="#" class="close-icon" onclick="closeNav()"><img src="images/icons/close.svg" width="20" height="20"></img></a>
-        </div>
-        <div class="warning">
-            <img src="images/icons/warning.svg" alt="">
-            <p>Not all data is loaded in</p>
+    <div id="sidebar" class="expanded-sidebar">
+        <div class="sidebar-container">
+            <div class="sidebar-header">
+                <a href="#"><img src="images/icons/pin.svg" width="20" height="20"></img></a>
+                <a href="#"><img src="images/icons/share.svg" width="20" height="20"></img></a>
+                <a href="#" class="close-icon" onclick="closeNav()"><img src="images/icons/close.svg" width="20" height="20"></img></a>
+            </div>
+            <div class="sidebar-content">
+                <div class="warning">
+                    <img src="images/icons/warning.svg" alt="">
+                    <p>Not all data is loaded in</p>
+                </div>
+            </div>
         </div>
     </div>
 

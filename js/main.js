@@ -1,7 +1,7 @@
 function openNav() {
-    document.getElementById("expandedSidebar").style.width = "400px";
+    document.getElementById("sidebar").style.width = "500px";
 }
 
 function closeNav() {
-    document.getElementById("expandedSidebar").style.width = "0px";
+    document.getElementById("sidebar").style.width = "0px";
 }
