@@ -1,223 +1,294 @@
-{
-    "Aantal": {
-        "Abt": {
-            "Schepen": 4
-        },
-        "Akkrum": {
-            "Schepen": 15
-        },
-        "Aldeboarn": {
-            "Schepen": 453
-        },
-        "Ameland": {
-            "Schepen": 12755
-        },
-        "Anjum": {
-            "Schepen": 33
-        },
-        "Bakhuizen": {
-            "Schepen": 26
-        },
-        "Balk": {
-            "Schepen": 50
-        },
-        "Berltsum": {
-            "Schepen": 8
-        },
-        "Bolsward": {
-            "Schepen": 291
-        },
-        "Boornbergum": {
-            "Schepen": 1
-        },
-        "Burgum": {
-            "Schepen": 4
-        },
-        "De Bult": {
-            "Schepen": 3
-        },
-        "Dokkum": {
-            "Schepen": 3787
-        },
-        "Dokkumer Nieuwe Zijlen": {
-            "Schepen": 4
-        },
-        "Drachten": {
-            "Schepen": 1
-        },
-        "Dronryp": {
-            "Schepen": 8
-        },
-        "Eemswoude": {
-            "Schepen": 2
-        },
-        "Franeker": {
-            "Schepen": 105
-        },
-        "Friesland": {
-            "Schepen": 3500
-        },
-        "Gaast": {
-            "Schepen": 40
-        },
-        "Gaastmeer": {
-            "Schepen": 13
-        },
-        "Garyp": {
-            "Schepen": 5
-        },
-        "Gauw": {
-            "Schepen": 3
-        },
-        "Gorredijk": {
-            "Schepen": 86
-        },
-        "Grou": {
-            "Schepen": 707
-        },
-        "Harlingen": {
-            "Schepen": 14601
-        },
-        "Heeg": {
-            "Schepen": 230
-        },
-        "Heerenveen": {
-            "Schepen": 2771
-        },
-        "Hemelum": {
-            "Schepen": 1
-        },
-        "Hindeloopen": {
-            "Schepen": 15122
-        },
-        "Holwerd": {
-            "Schepen": 2
-        },
-        "Hommerts": {
-            "Schepen": 135
-        },
-        "IJlst": {
-            "Schepen": 715
-        },
-        "It Wytfean": {
-            "Schepen": 7
-        },
-        "Jirnsum": {
-            "Schepen": 2
-        },
-        "Joure": {
-            "Schepen": 1769
-        },
-        "Kimswerd": {
-            "Schepen": 1
-        },
-        "Kollumn": {
-            "Schepen": 15
-        },
-        "Koudum": {
-            "Schepen": 1740
-        },
-        "Langweer": {
-            "Schepen": 3
-        },
-        "Leeuwarden": {
-            "Schepen": 946
-        },
-        "Lemmer": {
-            "Schepen": 4774
-        },
-        "Makkum": {
-            "Schepen": 3546
-        },
-        "Minnertsga": {
-            "Schepen": 4
-        },
-        "Molkwerum": {
-            "Schepen": 4646
-        },
-        "Nes": {
-            "Schepen": 7
-        },
-        "Oostmahorn": {
-            "Schepen": 2
-        },
-        "Oppenhuizen": {
-            "Schepen": 3
-        },
-        "Oude Bildtzijl": {
-            "Schepen": 17
-        },
-        "Oudega": {
-            "Schepen": 27
-        },
-        "Paesens": {
-            "Schepen": 15
-        },
-        "Poppenhuizen": {
-            "Schepen": 4
-        },
-        "Rijs": {
-            "Schepen": 2
-        },
-        "Ryptsjerk": {
-            "Schepen": 16
-        },
-        "Schiermonnikoog": {
-            "Schepen": 1416
-        },
-        "Seisbierrum": {
-            "Schepen": 1
-        },
-        "Sloten": {
-            "Schepen": 376
-        },
-        "Sneek": {
-            "Schepen": 739
-        },
-        "Stavoren": {
-            "Schepen": 6591
-        },
-        "Surhuisterveen": {
-            "Schepen": 1
-        },
-        "Terherne": {
-            "Schepen": 1628
-        },
-        "Terschelling": {
-            "Schepen": 21709
-        },
-        "Tjerkgaast": {
-            "Schepen": 12
-        },
-        "Tzummarum": {
-            "Schepen": 3
-        },
-        "Ureterp": {
-            "Schepen": 20
-        },
-        "Vlieland": {
-            "Schepen": 19153
-        },
-        "Warns": {
-            "Schepen": 2924
-        },
-        "Warten": {
-            "Schepen": 381
-        },
-        "Wergea": {
-            "Schepen": 387
-        },
-        "Wierum": {
-            "Schepen": 1
-        },
-        "Workum": {
-            "Schepen": 6117
-        },
-        "Woudsend": {
-            "Schepen": 4696
-        },
-        "Ymedam": {
-            "Schepen": 8
-        }
+[
+    {
+      "Modern_name": "Abt",
+      "count(*)": 4
+    },
+    {
+      "Modern_name": "Akkrum",
+      "count(*)": 15
+    },
+    {
+      "Modern_name": "Aldeboarn",
+      "count(*)": 453
+    },
+    {
+      "Modern_name": "Ameland",
+      "count(*)": 12755
+    },
+    {
+      "Modern_name": "Anjum",
+      "count(*)": 33
+    },
+    {
+      "Modern_name": "Bakhuizen",
+      "count(*)": 26
+    },
+    {
+      "Modern_name": "Balk",
+      "count(*)": 50
+    },
+    {
+      "Modern_name": "Berltsum",
+      "count(*)": 8
+    },
+    {
+      "Modern_name": "Bolsward",
+      "count(*)": 291
+    },
+    {
+      "Modern_name": "Boornbergum",
+      "count(*)": 1
+    },
+    {
+      "Modern_name": "Burgum",
+      "count(*)": 4
+    },
+    {
+      "Modern_name": "De Bult",
+      "count(*)": 3
+    },
+    {
+      "Modern_name": "Dokkum",
+      "count(*)": 3787
+    },
+    {
+      "Modern_name": "Dokkumer Nieuwe Zijlen",
+      "count(*)": 4
+    },
+    {
+      "Modern_name": "Drachten",
+      "count(*)": 1
+    },
+    {
+      "Modern_name": "Dronryp",
+      "count(*)": 8
+    },
+    {
+      "Modern_name": "Eemswoude",
+      "count(*)": 2
+    },
+    {
+      "Modern_name": "Franeker",
+      "count(*)": 105
+    },
+    {
+      "Modern_name": "Friesland",
+      "count(*)": 3500
+    },
+    {
+      "Modern_name": "Gaast",
+      "count(*)": 40
+    },
+    {
+      "Modern_name": "Gaastmeer",
+      "count(*)": 13
+    },
+    {
+      "Modern_name": "Garyp",
+      "count(*)": 5
+    },
+    {
+      "Modern_name": "Gauw",
+      "count(*)": 3
+    },
+    {
+      "Modern_name": "Gorredijk",
+      "count(*)": 86
+    },
+    {
+      "Modern_name": "Grou",
+      "count(*)": 707
+    },
+    {
+      "Modern_name": "Harlingen",
+      "count(*)": 14601
+    },
+    {
+      "Modern_name": "Heeg",
+      "count(*)": 230
+    },
+    {
+      "Modern_name": "Heerenveen",
+      "count(*)": 2771
+    },
+    {
+      "Modern_name": "Hemelum",
+      "count(*)": 1
+    },
+    {
+      "Modern_name": "Hindeloopen",
+      "count(*)": 15122
+    },
+    {
+      "Modern_name": "Holwerd",
+      "count(*)": 2
+    },
+    {
+      "Modern_name": "Hommerts",
+      "count(*)": 135
+    },
+    {
+      "Modern_name": "IJlst",
+      "count(*)": 715
+    },
+    {
+      "Modern_name": "It Wytfean",
+      "count(*)": 7
+    },
+    {
+      "Modern_name": "Jirnsum",
+      "count(*)": 2
+    },
+    {
+      "Modern_name": "Joure",
+      "count(*)": 1769
+    },
+    {
+      "Modern_name": "Kimswerd",
+      "count(*)": 1
+    },
+    {
+      "Modern_name": "Kollum",
+      "count(*)": 15
+    },
+    {
+      "Modern_name": "Koudum",
+      "count(*)": 1740
+    },
+    {
+      "Modern_name": "Langweer",
+      "count(*)": 3
+    },
+    {
+      "Modern_name": "Leeuwarden",
+      "count(*)": 946
+    },
+    {
+      "Modern_name": "Lemmer",
+      "count(*)": 4774
+    },
+    {
+      "Modern_name": "Makkum",
+      "count(*)": 3546
+    },
+    {
+      "Modern_name": "Minnertsga",
+      "count(*)": 4
+    },
+    {
+      "Modern_name": "Molkwerum",
+      "count(*)": 4646
+    },
+    {
+      "Modern_name": "Nes",
+      "count(*)": 7
+    },
+    {
+      "Modern_name": "Oostmahorn",
+      "count(*)": 2
+    },
+    {
+      "Modern_name": "Oppenhuizen",
+      "count(*)": 3
+    },
+    {
+      "Modern_name": "Oude Bildtzijl",
+      "count(*)": 17
+    },
+    {
+      "Modern_name": "Oudega",
+      "count(*)": 27
+    },
+    {
+      "Modern_name": "Paesens",
+      "count(*)": 15
+    },
+    {
+      "Modern_name": "Poppenhuzen",
+      "count(*)": 4
+    },
+    {
+      "Modern_name": "Rijs",
+      "count(*)": 2
+    },
+    {
+      "Modern_name": "Ryptsjerk",
+      "count(*)": 16
+    },
+    {
+      "Modern_name": "Schiermonnikoog",
+      "count(*)": 1416
+    },
+    {
+      "Modern_name": "Seisbierrum",
+      "count(*)": 1
+    },
+    {
+      "Modern_name": "Sloten",
+      "count(*)": 376
+    },
+    {
+      "Modern_name": "Sneek",
+      "count(*)": 739
+    },
+    {
+      "Modern_name": "Stavoren",
+      "count(*)": 6591
+    },
+    {
+      "Modern_name": "Surhuisterveen",
+      "count(*)": 1
+    },
+    {
+      "Modern_name": "Terherne",
+      "count(*)": 1628
+    },
+    {
+      "Modern_name": "Terschelling",
+      "count(*)": 21709
+    },
+    {
+      "Modern_name": "Tjerkgaast",
+      "count(*)": 12
+    },
+    {
+      "Modern_name": "Tzummarum",
+      "count(*)": 3
+    },
+    {
+      "Modern_name": "Ureterp",
+      "count(*)": 20
+    },
+    {
+      "Modern_name": "Vlieland",
+      "count(*)": 19153
+    },
+    {
+      "Modern_name": "Warns",
+      "count(*)": 2924
+    },
+    {
+      "Modern_name": "Warten",
+      "count(*)": 381
+    },
+    {
+      "Modern_name": "Wergea",
+      "count(*)": 387
+    },
+    {
+      "Modern_name": "Wierum",
+      "count(*)": 1
+    },
+    {
+      "Modern_name": "Workum",
+      "count(*)": 6117
+    },
+    {
+      "Modern_name": "Woudsend",
+      "count(*)": 4696
+    },
+    {
+      "Modern_name": "Ymedam",
+      "count(*)": 8
     }
-}
+   ]
