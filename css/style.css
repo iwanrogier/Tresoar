@@ -45,6 +45,7 @@ html, body {
     padding-top: 20px;
     display: flex;
     justify-content: center;
+    transition: 0.5s;
 }
 
 .sidebar-icons a {
@@ -54,8 +55,9 @@ html, body {
     text-decoration: none;
     display: block;
     z-index: 501;
-    padding: 10px;
-    border-radius: 4px;
+    padding: 7px 13px ;
+    border-radius: 5px;
+    transition: 0.5s;
 }
 
 .sidebar-footer {
@@ -64,5 +66,35 @@ html, body {
 }
 
 .sidebar-icons a:hover {
-    background-color: grey
+    background-color: #313131
 }
+
+.expanded-sidebar {
+    height: 100%;
+    position: fixed;
+    z-index: 510;
+    top: 0;
+    right: 75px;
+    background-color: #313131;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.expanded-icons {
+    fill: #E8E8E8;
+    background-color: #4d4d4d;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    display: block;
+    z-index: 501;
+    padding: 6px 8px ;
+    border-radius: 5px;
+    transition: 0.5s;
+    position: absolute;
+    right: 15px;
+}
+

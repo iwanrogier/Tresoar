@@ -17,20 +17,26 @@
     <script src="js/leaflet.js"></script>
 </head>
 <body>
-    <div id="map"></div>
-    
-    <div class="sidebar">
-        <div class="sidebar-icons">
-            <a href="#"><object data="images/icons/Selector.svg" width="20" height="20"></object></a>
-            <a href="#"><object data="images/icons/Layers.svg" width="20" height="20"></object></a>
-            <a href="#"><object data="images/icons/Search.svg" width="20" height="20"></object></a>
-            <a href="#"><object data="images/icons/Favourite.svg" width="20" height="20"></object></a>
-            <div class="sidebar-footer">
-                <a href="#"><object data="images/icons/Menu.svg" width="20" height="20"></object></a>
-                <a href="#"><object data="images/icons/Settings.svg" width="20" height="20"></object></a>
+        <div id="map"></div>
+
+        <div id="mySidebar" class="sidebar">
+            <div  id="buttons" class="sidebar-icons" onclick="openNav()">
+                <a href="#"><img src="images/icons/Selector.svg" alt=""></a>
+                <a href="#"><img src="images/icons/Layers.svg" alt=""></a>
+                <a href="#"><img src="images/icons/Search.svg" alt=""></a>
+                <a href="#"><img src="images/icons/Favourite.svg" alt=""></a>
+                <div class="sidebar-footer">
+                    <a href="#"><img src="images/icons/Menu.svg" alt=""></a>
+                    <a href="#"><img src="images/icons/Settings.svg" alt=""></a>
+                </div>
             </div>
         </div>
-    </div>
+
+        <div id="expandedSidebar" class="expanded-sidebar">
+            <div class="expanded-icons">
+                <a href="#"><img src="images/icons/close.svg" alt=""></a>
+            </div>
+        </div>
 
     <!-- Leaflet JS -->
     <script src="js/leaflet-settings.js"></script>
