@@ -76,29 +76,32 @@ html, body {
     right: 75px;
     background-color: #313131;
     overflow-x: hidden;
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
     transition: 0.5s;
 }
 
 .expanded-icons {
     position: absolute;
-    right: 15px;
     z-index: 501;
+    display: flex;
+    margin: 25px;
+    width: 100%;
 }
 
 .expanded-icons a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-a.close-icon {
     fill: #E8E8E8;
     background-color: #4D4D4D;
     text-decoration: none;
     padding: 7px 13px;
     border-radius: 5px;
     transition: 0.5s;
+    margin-right: 15px
+}
+
+.expanded-icons a:last-child {
+    position: absolute;
+    right: 55px;
+    margin-right: 0;
 }
