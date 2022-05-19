@@ -105,3 +105,14 @@ html, body {
     right: 55px;
     margin-right: 0;
 }
+
+.warning {
+    background-color: #504235;
+    width: 153px;
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 4px;
+    color: #D9B943;
+    fill: #D9B943;
+}
