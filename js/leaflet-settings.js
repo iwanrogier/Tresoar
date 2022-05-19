@@ -67,14 +67,6 @@ var polygon = L.polygon([
 var northSea = L.marker([2.327145, -26.717066]).bindTooltip('Noordzee').addTo(map);
 northSea.openTooltip();
 
-function openNav() {
-    document.getElementById("expandedSidebar").style.width = "400px";
-  }
-
-  function closeNav() {
-    document.getElementById("expandedSidebar").style.width = "0px";
-  }
-
 /*/ Route #1
 var route1 = [[-1.662955, -31.447108], [25.398461, -40.315937], [15.725426, -14.744146], [28.559319, -13.266008]];
 
