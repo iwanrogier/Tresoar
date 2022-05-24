@@ -23,6 +23,7 @@ html, body {
 
 /* Tooltip */
 .leaflet-tooltip-right:before,
+.leaflet-tooltip-left:before,
 .leaflet-pane .leaflet-marker-pane,
 .leaflet-pane .leaflet-shadow-pane {
     display: none;
@@ -77,6 +78,7 @@ html, body {
     position: fixed;
     z-index: 501;
     top: 0;
+    width: 0;
     right: 75px;
     background-color: #313131;
     overflow-x: hidden;
@@ -130,9 +132,4 @@ html, body {
 .warning img {
     margin-right: 25px;
     height: 20px
-}
-
-.location-pin {
-    color: Red;
-    font-size: 75px;
 }
