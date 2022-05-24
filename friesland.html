@@ -15,9 +15,54 @@
 
     <!-- JavaScript -->
     <script src="js/leaflet.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
     <div id="map"></div>
+
+    <!-- Navigation -->
+    <div class="sidebar">
+        <div id="buttons" class="sidebar-icons">
+            <a href="index.html"><img src="images/icons/selector.svg" width="20" height="20"></img></a>
+            <a href="#"><img src="images/icons/layers.svg" width="20" height="20"></img></a>
+            <a href="#"><img src="images/icons/search.svg" width="20" height="20"></img></a>
+            <a href="#"><img src="images/icons/favourite.svg" width="20" height="20"></img></a>
+            <div class="sidebar-footer">
+                <a href="#" onclick="openNav()"><img src="images/icons/menu.svg" width="20" height="20"></img></a>
+                <a href="#"><img src="images/icons/settings.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Expanded sidebar -->
+    <div id="sidebar" class="expanded-sidebar">
+        <div class="sidebar-container">
+            <div class="sidebar-header">
+                <a href="#"><img src="images/icons/pin.svg" width="20" height="20"></img></a>
+                <a href="#"><img src="images/icons/share.svg" width="20" height="20"></img></a>
+                <a href="#" class="close-icon" onclick="closeNav()"><img src="images/icons/close.svg" width="20" height="20"></img></a>
+            </div>
+            <div class="sidebar-content">
+                <div class="sidebar-text">
+                    <div class="sidebar-name">
+                        <h1 class="title-sidebar">Placeholder Name</h1>
+                        <p>Placeholder name - Placeholder name<br>
+                        Circa 18** - 18**</p>
+                    </div>
+                    <div class="sidebar-data">
+                        <h3 class="kilometers">00.000 Km</h3>
+                        <p>18** - 18**<br>
+                         + 0,0
+                        </p>
+                    </div>  
+                </div>
+                <div class="warning">
+                    <img src="images/icons/warning.svg" alt="">
+                    <p>Not all data is loaded in</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Leaflet JS -->
     <script src="js/leaflet-province.js"></script>
