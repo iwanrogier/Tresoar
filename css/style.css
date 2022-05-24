@@ -153,11 +153,8 @@ html, body {
     color: #8A8A8A;
     align-items: center;
     padding: 10px 0px;
-}
-
-.sidebar-data {
-    float: right;
-    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .kilometers {
@@ -165,4 +162,8 @@ html, body {
     display: flex;
     align-items: center;
     padding: 10px 0px;
+}
+
+.text-green {
+    color: #61B870
 }
