@@ -58,7 +58,8 @@ var polygon = L.polygon([
     weight: 2,
     color: '#000',
     fillOpacity: .5,
-    fillColor: '#dccca4'
+    fillColor: '#dccca4',
+    className: 'friesland'
 }).on('click', function() {
     window.open('friesland.html', '_self');
 }).addTo(map);
