@@ -56,7 +56,7 @@ html, body {
     z-index: 500;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: #202020;
     overflow-x: hidden;
     padding-top: 20px;
     display: flex;
@@ -91,13 +91,14 @@ html, body {
     z-index: 501;
     top: 0;
     right: 75px;
-    background-color: #313131;
+    background-color: #202020;
     overflow-x: hidden;
     transition: 0.5s;
 }
 
 .sidebar-container {
-    padding: 25px
+    padding: 25px;
+    background-color: #313131;
 }
 
 .sidebar-header {
