@@ -23,8 +23,18 @@ html, body {
     background: #253238;
 }
 
+/* Frisia */
+.friesland {
+    opacity: 1;
+}
+
+.friesland:hover {
+    fill: #fff
+}
+
 /* Tooltip */
 .leaflet-tooltip-right:before,
+.leaflet-tooltip-left:before,
 .leaflet-pane .leaflet-marker-pane,
 .leaflet-pane .leaflet-shadow-pane {
     display: none;
