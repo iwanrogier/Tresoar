@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 /* General */
 * {
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 html, body {
@@ -21,18 +23,8 @@ html, body {
     background: #253238;
 }
 
-/* Frisia */
-.friesland {
-    opacity: 1;
-}
-
-.friesland:hover {
-    fill: white;
-}
-
 /* Tooltip */
 .leaflet-tooltip-right:before,
-.leaflet-tooltip-left:before,
 .leaflet-pane .leaflet-marker-pane,
 .leaflet-pane .leaflet-shadow-pane {
     display: none;
@@ -84,10 +76,10 @@ html, body {
 
 .expanded-sidebar {
     height: 100%;
+    width: 0;
     position: fixed;
     z-index: 501;
     top: 0;
-    width: 0;
     right: 75px;
     background-color: #313131;
     overflow-x: hidden;
@@ -125,7 +117,7 @@ html, body {
 }
 
 .sidebar-content {
-    margin-top: 65px
+    margin-top: 25px
 }
 
 .warning {
@@ -141,4 +133,26 @@ html, body {
 .warning img {
     margin-right: 25px;
     height: 20px
+}
+
+.title-sidebar {
+    color: #EEEEEE;
+}
+
+.sidebar-text {
+    color: #8A8A8A;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.sidebar-data {
+    float: right;
+    margin-top: 25px;
+}
+
+.kilometers {
+    color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
 }
