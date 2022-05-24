@@ -63,9 +63,11 @@ var polygon = L.polygon([
     window.open('friesland.html', '_self');
 }).addTo(map);
 
-// North Sea label
-var northSea = L.marker([2.327145, -26.717066]).bindTooltip('Noordzee').addTo(map);
-northSea.openTooltip();
+// Label
+var noordzeeMarker = L.marker([2.327145, -26.717066])
+    .addTo(map)
+    .bindTooltip('Noordzee', {permanent: true})
+    .openTooltip();
 
 /*/ Route #1
 var route1 = [[-1.662955, -31.447108], [25.398461, -40.315937], [15.725426, -14.744146], [28.559319, -13.266008]];

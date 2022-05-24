@@ -131,3 +131,8 @@ html, body {
     margin-right: 25px;
     height: 20px
 }
+
+.location-pin {
+    color: Red;
+    font-size: 75px;
+}
