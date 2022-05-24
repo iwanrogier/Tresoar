@@ -76,16 +76,30 @@ var oostzeeMarker = L.marker([7.312766, 55.065832])
     .bindTooltip('Oostzee', {permanent: true})
     .openTooltip();
 
-/*/ Route #1
-var route1 = [[-1.662955, -31.447108], [25.398461, -40.315937], [15.725426, -14.744146], [28.559319, -13.266008]];
+// Route #1
+var route1 = [
+    [-11.353626, -11.931588],
+    [-4.369315, -13.18583],
+    [11.436794, -3.779016],
+    [24.477459, -0.382111],
+    [28.222877, 2.701234],
+    [33.013814, 12.969717],
+    [33.076028, 15.923034],
+    [31.841385, 17.020495],
+    [26.064238, 18.809592],
+    [19.881758, 23.396225],
+    [13.684116, 26.704437],
+    [6.690325, 27.838331],
+    [5.234999, 37.088365],
+];
 
-var polyline = L.polyline(route1, {
+var routeLine = L.polyline(route1, {
     color: 'red'
-}).addTo(map);*/
+}).addTo(map);
 
-/*/ Popup with longitude latitude
+// Popup with longitude latitude
 function onMapClick(e) {
     alert(e.latlng);
 }
 
-map.on('click', onMapClick);*/
+map.on('click', onMapClick);
