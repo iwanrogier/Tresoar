@@ -71,8 +71,6 @@ var polygon = L.polygon([
     fillOpacity: .5,
     fillColor: '#dccca4',
     className: 'friesland'
-}).on('click', function() {
-    window.open('friesland.html', '_self');
 }).addTo(map);
 
 // Noordzee marker
@@ -86,6 +84,9 @@ var oostzeeMarker = L.marker([7.312766, 55.065832])
     .addTo(map)
     .bindTooltip('Oostzee', {permanent: true})
     .openTooltip();
+
+// Marker
+var marker = L.marker([-14.763942, -12.036108]).addTo(map);
 
 // Route #1
 var route1 = [
@@ -120,7 +121,7 @@ var routeLine = L.polyline(route1, {
 
 routeLine.bindPopup("<b>Kaag</b><br>Dit is de route langs het Sonttol.");
 
-/*/ Popup with longitude latitude
+// Popup with longitude latitude
 map.on('click', function(e) {
     alert(e.latlng);
-} );*/
+} );
