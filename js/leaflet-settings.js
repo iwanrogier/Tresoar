@@ -109,9 +109,7 @@ var routeLine = L.polyline(route1, {
 
 routeLine.bindPopup("<b>Kaag</b><br>Dit is de route langs het Sonttol.");
 
-// Popup with longitude latitude
-function onMapClick(e) {
+/*/ Popup with longitude latitude
+map.on('click', function(e) {
     alert(e.latlng);
-}
-
-map.on('click', onMapClick);
+} );*/
