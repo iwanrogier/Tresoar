@@ -168,3 +168,7 @@ html, body {
 .text-green {
     color: #61B870
 }
+
+.leaflet-popup-content-wrapper {
+    border-radius: 4px;
+}
