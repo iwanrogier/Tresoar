@@ -177,3 +177,35 @@ html, body {
 .leaflet-control-attribution {
     display: none;
 }
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-fullscreen-button {
+    border-radius: 4px !important;
+    background-color: #202020 !important;
+    color: #fff !important;
+}
+
+.leaflet-control-zoom-in {
+    margin-bottom: 10px;
+}
+
+.leaflet-bar {
+    border: 0 !important;
+}
+
+.leaflet-bar a {
+    border-bottom: 0;
+}
+
+.leaflet-left {
+    margin-left: 25px;
+}
+
+.leaflet-bottom {
+    margin-bottom: 25px;
+}
+
+.class {
+    border-bottom: 2px solid #fff;
+}
