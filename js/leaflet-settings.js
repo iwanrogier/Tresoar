@@ -79,14 +79,28 @@ var noordzeeMarker = L.marker([2.327145, -26.717066])
     .bindTooltip('Noordzee', {permanent: true})
     .openTooltip();
 
+noordzeeMarker._icon.style.display = "none";
+noordzeeMarker._shadow.style.display = "none";
+
 // Oostzee marker
 var oostzeeMarker = L.marker([7.312766, 55.065832])
     .addTo(map)
     .bindTooltip('Oostzee', {permanent: true})
     .openTooltip();
 
-// Marker
-var marker = L.marker([-14.763942, -12.036108]).addTo(map);
+oostzeeMarker._icon.style.display = "none";
+oostzeeMarker._shadow.style.display = "none";
+
+// Village icon
+var frisiaMarker = L.icon({
+    iconUrl: '../images/pins/village.svg'
+});
+
+L.marker([-10.994741, -13.812951], {icon: frisiaMarker})
+    .on('click', function() {
+        window.open('friesland.html', '_self');
+    })
+    .addTo(map);
 
 // Route #1
 var route1 = [
