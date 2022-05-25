@@ -17,6 +17,15 @@ html, body {
     margin: 0 auto;
 }
 
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 501;
+    margin: 25px 0 0 25px;
+    height: 35px;
+}
+
 /* Map */
 #map {
     width: 100%;
@@ -204,8 +213,4 @@ html, body {
 
 .leaflet-bottom {
     margin-bottom: 25px;
-}
-
-.class {
-    border-bottom: 2px solid #fff;
 }
