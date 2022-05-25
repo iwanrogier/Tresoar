@@ -11,14 +11,20 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/leaflet.fullscreen.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- JavaScript -->
     <script src="js/leaflet.js"></script>
+    <script src="js/Leaflet.fullscreen.min.js"></script>
     <script src="js/main.js"></script>
 </head>
 <body>
+    <!-- Map -->
     <div id="map"></div>
+
+    <!-- Logo -->
+    <img class="logo" src="images/logo.svg" alt="logo tresoar">
 
     <!-- Navigation -->
     <div class="sidebar">
@@ -37,11 +43,13 @@
     <!-- Expanded sidebar -->
     <div id="sidebar" class="expanded-sidebar">
         <div class="sidebar-container">
+            <!-- Sidebar header -->
             <div class="sidebar-header">
                 <a href="#"><img src="images/icons/pin.svg" width="20" height="20"></img></a>
                 <a href="#"><img src="images/icons/share.svg" width="20" height="20"></img></a>
                 <a href="#" class="close-icon" onclick="closeNav()"><img src="images/icons/close.svg" width="20" height="20"></img></a>
             </div>
+            <!-- Sidebar content -->
             <div class="sidebar-content">
                 <div class="sidebar-text">
                     <div class="sidebar-name">

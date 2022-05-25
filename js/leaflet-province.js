@@ -5,6 +5,7 @@ bounds = L.latLngBounds(corner1, corner2);
 
 // Map initialisation
 var map = L.map('map', {
+    zoomControl: false,
     wheelPxPerZoomLevel: 240,	
     zoomSnap: 0.25,
     zoomDelta: 0.5,
@@ -17,6 +18,15 @@ var map = L.map('map', {
 L.tileLayer('images/maps/Map-Frisia/{z}/{x}/{y}.png', {
     continuousWorld: false,
     noWrap: true,
+}).addTo(map);
+
+// Zoom bottom left
+L.control.zoom({
+    position: 'bottomleft'
+}).addTo(map);
+
+L.control.fullscreen({
+    position: 'bottomleft'
 }).addTo(map);
 
 /*/ Popup with longitude latitude
