@@ -6,12 +6,13 @@ bounds = L.latLngBounds(corner1, corner2);
 // Map initialisation
 var map = L.map('map', {
     zoomControl: false,
+    fullscreenControl: false,
     wheelPxPerZoomLevel: 240,	
     zoomSnap: 0.25,
     zoomDelta: 0.5,
     minZoom: 3.75,
     maxZoom: 4.75,
-    maxBounds: bounds
+    maxBounds: bounds,
 }).setView([(39.754927, -88.649383), (-48.485904, 97.605536)], 3.75);
 
 // Reference the tiles
@@ -23,6 +24,10 @@ L.tileLayer('images/maps/Map-Europe/{z}/{x}/{y}.png', {
 // Zoom bottom left
 L.control.zoom({
      position: 'bottomleft'
+}).addTo(map);
+
+L.control.fullscreen({
+    position: 'bottomleft'
 }).addTo(map);
 
 // Frisia polygon
