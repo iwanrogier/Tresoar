@@ -278,3 +278,8 @@ html, body {
     margin-top: 15px;
     margin-right: 25px;
   }
+
+  .tab-analyse-header {
+      display: flex;
+      justify-content: space-between;
+  }
