@@ -118,54 +118,32 @@
             <div class="sidebar-content">
                 <div class="sidebar-text">
                     <div class="sidebar-name">
-                        <h1 class="title-sidebar">Placeholder Name</h1>
+                        <h1 class="title-sidebar">Layers</h1>
                         <p>Placeholder name - Placeholder name<br>
                         Circa 18** - 18**</p>
                     </div>
-                    <div class="sidebar-data">
-                        <h3 class="kilometers">00.000 Km</h3>
-                        <p>18** - 18**<br>
-                        <span class="text-green">+ 0,0</span>
-                        </p>
-                    </div>  
                 </div>
-                <div class="warning">
-                    <img src="images/icons/warning.svg" alt="">
-                    <p>Not all data is loaded in</p>
+                <div class="d-flex justify-content-between">
+                    <div class="warning">
+                        <img src="images/icons/warning.svg" alt="">
+                        <p>Not all data is loaded in</p>
+                    </div>
+                    <div class="warning">
+                        <img src="images/icons/warning.svg" alt="">
+                        <p>Not all data is loaded in</p>
+                    </div>
                 </div>
             </div>
         </div>
         
         <div class="sidebar-info">
-            <!-- Tab links -->
-            <div class="tab">
-                <button class="tablinks" onclick="openTab(event, 'captain')"><h3>Captain</h3></button>
-                <button class="tablinks" onclick="openTab(event, 'routes')"><h3>Routes</h3></button>
-                <button class="tablinks" onclick="openTab(event, 'analysis')"><h3>Analysis</h3></button>
-            </div>
-
-            <div class="tab-line"></div>
-
-            <!-- Tab content -->
-            <div id="captain" class="tabcontent">
-                <div class="tab-header">
-                    <p>Last updated **/**/201*</p>
-                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
+            <div class="layer-item d-flex align-items-center">
+                <div class="layer-status"></div>
+                <div class="layer-info">
+                    <span class="layer-desc">Layer name</span>
+                    <p class="layer-title">Cities</p>
                 </div>
-            </div>
-            
-            <div id="routes" class="tabcontent">
-                <div class="tab-header">
-                    <p>Last updated **/**/201*</p>
-                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
-                </div>
-            </div>
-            
-            <div id="analysis" class="tabcontent">
-                <div class="tab-header">
-                    <p>Last updated **/**/201*</p>
-                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
-                </div>
+                <a href="#" class="layer-button">X</a>
             </div>
         </div>
     </div>
