@@ -1,9 +1,19 @@
+// Selector sidebar
 function openNav() {
     document.getElementById("selectorSidebar").style.width = "600px";
 }
 
 function closeNav() {
     document.getElementById("selectorSidebar").style.width = "0px";
+}
+
+// Layers sidebar
+function openLayerNav() {
+  document.getElementById("layersSidebar").style.width = "600px";
+}
+
+function closeLayerNav() {
+  document.getElementById("layersSidebar").style.width = "0px";
 }
 
 function openTab(evt, tabName) {
