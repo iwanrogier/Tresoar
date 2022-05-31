@@ -1,9 +1,9 @@
 function openNav() {
-    document.getElementById("sidebar").style.width = "600px";
+    document.getElementById("selectorSidebar").style.width = "600px";
 }
 
 function closeNav() {
-    document.getElementById("sidebar").style.width = "0px";
+    document.getElementById("selectorSidebar").style.width = "0px";
 }
 
 function openTab(evt, tabName) {

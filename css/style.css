@@ -26,6 +26,10 @@ html, body {
     height: 35px;
 }
 
+.text-green {
+    color: #61B870
+}
+
 /* Map */
 #map {
     width: 100%;
@@ -89,7 +93,7 @@ html, body {
     background-color: #313131
 }
 
-.expanded-sidebar {
+.selector-sidebar {
     height: 100%;
     width: 0;
     position: fixed;
@@ -170,10 +174,6 @@ html, body {
     padding: 10px 0px;
 }
 
-.text-green {
-    color: #61B870
-}
-
 /* Leaflet controls */
 .leaflet-popup-content-wrapper {
     border-radius: 4px;
@@ -210,9 +210,8 @@ html, body {
 .leaflet-bottom {
     margin-bottom: 25px;
 }
-/* Tabs */
 
-/* Style the tab */
+/* Tabs */
 .sidebar-info {
     background-color: #313131;
     margin-top: 5px;
@@ -222,51 +221,49 @@ html, body {
     overflow: hidden;
     display: flex;
     justify-content: center;
-  }
+}
   
-  /* Style the buttons that are used to open the tab content */
-  .tab button {
+.tab button {
     background-color: inherit;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 6px 50px;
     transition: 0.2s;
-  }
+}
   
-  .tablinks {
+.tablinks {
     color: #8A8A8A;
-  }
+}
 
-  .tablinks:hover {
+.tablinks:hover {
     box-shadow: inset 0 -3px 0 #E8E8E8;
     color: #E8E8E8;
-  }
+}
 
-  .tab button.active {
+.tab button.active {
     box-shadow: inset 0 -3px 0 #E8E8E8;
     color: #E8E8E8;
-  }
+}
   
-  /* Style the tab content */
-  .tabcontent {
+/* Tab content */
+.tabcontent {
     display: none;
     padding: 6px 25px;
     border-top: none;
     color: #8A8A8A;
-  }
+}
 
-  .tab-line {
-      margin-top: 0px;
-      margin: 0 25px;
-      border: none;
-      height: 2px;
-      background: #4D4D4D;
+.tab-line {
+    margin-top: 0px;
+    margin: 0 25px;
+    border: none;
+    height: 2px;
+    background: #4D4D4D;
       
-  }
-  /* End Tabs */
+}
 
-  .download-icon {
+.download-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -277,9 +274,9 @@ html, body {
     padding: 5px 15px;
     margin-top: 15px;
     margin-right: 25px;
-  }
+}
 
-  .tab-analyse-header {
-      display: flex;
-      justify-content: space-between;
-  }
+.tab-header {
+    display: flex;
+    justify-content: space-between;
+}

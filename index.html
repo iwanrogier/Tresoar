@@ -29,19 +29,19 @@
     <!-- Navigation -->
     <div class="sidebar">
         <div id="buttons" class="sidebar-icons">
-            <a href="#"><img src="images/icons/selector.svg" width="20" height="20"></img></a>
+            <a href="#" onclick="openNav()"><img src="images/icons/selector.svg" width="20" height="20"></img></a>
             <a href="#"><img src="images/icons/layers.svg" width="20" height="20"></img></a>
             <a href="#"><img src="images/icons/search.svg" width="20" height="20"></img></a>
             <a href="#"><img src="images/icons/favourite.svg" width="20" height="20"></img></a>
             <div class="sidebar-footer">
-                <a href="#" onclick="openNav()"><img src="images/icons/menu.svg" width="20" height="20"></img></a>
+                <a href="#"><img src="images/icons/menu.svg" width="20" height="20"></img></a>
                 <a href="#"><img src="images/icons/settings.svg" alt=""></a>
             </div>
         </div>
     </div>
 
-    <!-- Expanded sidebar -->
-    <div id="sidebar" class="expanded-sidebar">
+    <!-- Selector sidebar -->
+    <div id="selectorSidebar" class="selector-sidebar">
         <div class="sidebar-container">
             <!-- Sidebar header -->
             <div class="sidebar-header">
@@ -72,7 +72,6 @@
         </div>
         
         <div class="sidebar-info">
-
             <!-- Tab links -->
             <div class="tab">
                 <button class="tablinks" onclick="openTab(event, 'captain')"><h3>Captain</h3></button>
@@ -82,24 +81,88 @@
 
             <div class="tab-line"></div>
 
-
             <!-- Tab content -->
             <div id="captain" class="tabcontent">
-                <div class="tab-analyse-header">
+                <div class="tab-header">
                     <p>Last updated **/**/201*</p>
                     <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
                 </div>
             </div>
             
             <div id="routes" class="tabcontent">
-                <div class="tab-analyse-header">
+                <div class="tab-header">
                     <p>Last updated **/**/201*</p>
                     <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
                 </div>
             </div>
             
             <div id="analyse" class="tabcontent">
-                <div class="tab-analyse-header">
+                <div class="tab-header">
+                    <p>Last updated **/**/201*</p>
+                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Selector sidebar -->
+    <div id="" class="selector-sidebar">
+        <div class="sidebar-container">
+            <!-- Sidebar header -->
+            <div class="sidebar-header">
+                <a href="#"><img src="images/icons/pin.svg" width="20" height="20"></img></a>
+                <a href="#"><img src="images/icons/share.svg" width="20" height="20"></img></a>
+                <a href="#" class="close-icon" onclick="closeNav()"><img src="images/icons/close.svg" width="20" height="20"></img></a>
+            </div>
+            <!-- Sidebar content -->
+            <div class="sidebar-content">
+                <div class="sidebar-text">
+                    <div class="sidebar-name">
+                        <h1 class="title-sidebar">Placeholder Name</h1>
+                        <p>Placeholder name - Placeholder name<br>
+                        Circa 18** - 18**</p>
+                    </div>
+                    <div class="sidebar-data">
+                        <h3 class="kilometers">00.000 Km</h3>
+                        <p>18** - 18**<br>
+                        <span class="text-green">+ 0,0</span>
+                        </p>
+                    </div>  
+                </div>
+                <div class="warning">
+                    <img src="images/icons/warning.svg" alt="">
+                    <p>Not all data is loaded in</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="sidebar-info">
+            <!-- Tab links -->
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'captain')"><h3>Captain</h3></button>
+                <button class="tablinks" onclick="openTab(event, 'routes')"><h3>Routes</h3></button>
+                <button class="tablinks" onclick="openTab(event, 'analyse')"><h3>Analyse</h3></button>
+            </div>
+
+            <div class="tab-line"></div>
+
+            <!-- Tab content -->
+            <div id="captain" class="tabcontent">
+                <div class="tab-header">
+                    <p>Last updated **/**/201*</p>
+                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
+                </div>
+            </div>
+            
+            <div id="routes" class="tabcontent">
+                <div class="tab-header">
+                    <p>Last updated **/**/201*</p>
+                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
+                </div>
+            </div>
+            
+            <div id="analyse" class="tabcontent">
+                <div class="tab-header">
                     <p>Last updated **/**/201*</p>
                     <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
                 </div>
