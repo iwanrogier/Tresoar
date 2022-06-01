@@ -107,7 +107,7 @@ html, body {
 }
 
 .sidebar-icons a:hover {
-    background-color: #313131
+    background-color: #4D4D4D
 }
 
 .selector-sidebar {
@@ -134,19 +134,6 @@ html, body {
     width: 100%;
 }
 
-.sidebar-header a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    fill: #E8E8E8;
-    background-color: #313131;
-    text-decoration: none;
-    padding: 7px 13px;
-    border-radius: 5px;
-    transition: 0.5s;
-    margin-right: 15px;
-}
-
 .sidebar-header a:last-child {
     position: absolute;
     right: 55px;
@@ -157,6 +144,23 @@ html, body {
     margin-top: 25px;
     background-color: #313131;
     padding: 15px;
+}
+
+.btn-sidebar {
+    background-color: #4D4D4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #E8E8E8;
+    text-decoration: none;
+    padding: 7px 13px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-right: 15px;
+}
+
+.btn-sidebar:hover {
+    background-color: #313131;
 }
 
 .warning {
@@ -301,7 +305,7 @@ html, body {
     justify-content: space-between;
 }
 
-/* Layers */
+/* Layers sidebar */
 .layer-item {
     background-color: #3A3A3A;
     padding: 10px 20px
@@ -350,6 +354,10 @@ html, body {
     align-items: center;
     position: absolute;
     right: 40px;
+}
+
+.layer-button:hover {
+    background-color: #4D4D4D;
 }
 
 .layer-item {
