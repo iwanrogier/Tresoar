@@ -91,7 +91,7 @@ var oostzeeMarker = L.marker([7.312766, 55.065832])
 oostzeeMarker._icon.style.display = "none";
 oostzeeMarker._shadow.style.display = "none";
 
-// Village icon
+// Frisia icon
 var frisiaMarker = L.icon({
     iconUrl: '../images/pins/village.svg'
 });
@@ -99,6 +99,17 @@ var frisiaMarker = L.icon({
 L.marker([-10.994741, -13.812951], {icon: frisiaMarker})
     .on('click', function() {
         window.open('friesland.html', '_self');
+    })
+    .addTo(map);
+
+// Denmark icon
+var denMarker = L.icon({
+    iconUrl: '../images/pins/tollbooth.svg'
+});
+
+L.marker([17.705067, 22.246503], {icon: denMarker})
+    .on('click', function() {
+        window.open('index.html', '_self');
     })
     .addTo(map);
 
