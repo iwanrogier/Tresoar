@@ -47,6 +47,10 @@ html, body {
     justify-content: end;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 /* Map */
 #map {
     width: 100%;
@@ -146,7 +150,7 @@ html, body {
     padding: 15px;
 }
 
-.btn-sidebar {
+.btn {
     background-color: #4D4D4D;
     display: flex;
     justify-content: center;
@@ -159,7 +163,7 @@ html, body {
     margin-right: 15px;
 }
 
-.btn-sidebar:hover {
+.btn:hover {
     background-color: #313131;
 }
 
@@ -378,4 +382,39 @@ html, body {
     background-color: #4D4D4D;
     color: #fff;
     border: 1px solid #818181;
+}
+
+/* Onboarding */
+.onboarding {
+    position: absolute;
+    width: 869px;
+    height: 564px;
+    top: 158px;
+    background-color: #313131;
+    border-radius: 4px;
+    z-index: 551;
+    padding: 20px;
+}
+
+.onboarding .btn {
+    width: 20px;
+}
+
+.onboarding-text {
+    color: #fff;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+}
+
+.onboarding-text h2 {
+    font-size: 20px;
+}
+
+.onboarding-text p {
+    font-size: 14px;
+    margin: 0 100px;
+    color: #8A8A8A;
 }
