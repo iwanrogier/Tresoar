@@ -25,6 +25,15 @@ function closeSearchNav() {
   document.getElementById("searchSidebar").style.width = "0px";
 }
 
+// Search sidebar
+function openOnboarding() {
+  document.getElementById("onboarding").style.display = "block";
+}
+
+function closeOnboarding() {
+  document.getElementById("onboarding").style.display = "none";
+}
+
 function openTab(evt, tabName) {
     // Declare all variables
     var i, tabcontent, tablinks;
