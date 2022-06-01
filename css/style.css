@@ -367,3 +367,14 @@ html, body {
 .layer-item:last-child {
     margin-bottom: 0;
 }
+
+/* Search sidebar */
+.search-form input {
+    border-radius: 4px;
+    width: 498px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #4D4D4D;
+    color: #fff;
+    border: 1px solid #818181;
+}
