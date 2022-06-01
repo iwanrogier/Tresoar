@@ -29,13 +29,14 @@
     <!-- Navigation -->
     <div class="sidebar">
         <div id="buttons" class="sidebar-icons">
-            <a href="#" onclick="openNav()"><img src="images/icons/selector.svg" width="20" height="20"></img></a>
-            <a href="#" onclick="openLayerNav()"><img src="images/icons/layers.svg" width="20" height="20"></img></a>
-            <a href="#"><img src="images/icons/search.svg" width="20" height="20"></img></a>
-            <a href="#"><img src="images/icons/favourite.svg" width="20" height="20"></img></a>
+            <a href="#" onclick="openNav()"><img src="images/icons/selector.svg" width="20" height="20"></a>
+            <a href="#" onclick="openLayerNav()"><img src="images/icons/layers.svg" width="20" height="20"></a>
+            <a href="#" onclick="openSearchNav()"><img src="images/icons/search.svg" width="20" height="20"></a>
+            <a href="#"><img src="images/icons/favourite.svg" width="20" height="20"></a>
             <div class="sidebar-footer">
-                <a href="#"><img src="images/icons/menu.svg" width="20" height="20"></img></a>
-                <a href="#"><img src="images/icons/settings.svg" alt=""></a>
+                <a href="#"><img src="images/icons/info.svg" width="20" height="20"></a>
+                <a href="#"><img src="images/icons/light.svg" width="20" height="20"></a>
+                <a href="#"><img src="images/icons/settings.svg" width="20" height="20"></a>
             </div>
         </div>
     </div>
@@ -45,9 +46,9 @@
         <div class="sidebar-container">
             <!-- Sidebar header -->
             <div class="sidebar-header">
-                <a href="#"><img src="images/icons/pin.svg" width="20" height="20"></img></a>
-                <a href="#"><img src="images/icons/share.svg" width="20" height="20"></img></a>
-                <a href="#" class="close-icon" onclick="closeNav()"><img src="images/icons/close.svg" width="20" height="20"></img></a>
+                <a class="btn-sidebar" href="#"><img src="images/icons/pin.svg" width="20" height="20"></a>
+                <a class="btn-sidebar" href="#"><img src="images/icons/share.svg" width="20" height="20"></a>
+                <a class="btn-sidebar" href="#" class="close-icon" onclick="closeNav()"><img src="images/icons/close.svg" width="20" height="20"></a>
             </div>
             <!-- Sidebar content -->
             <div class="sidebar-content">
@@ -85,21 +86,21 @@
             <div id="captain" class="tabcontent">
                 <div class="tab-header">
                     <p>Last updated **/**/201*</p>
-                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
+                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></a>
                 </div>
             </div>
             
             <div id="routes" class="tabcontent">
                 <div class="tab-header">
                     <p>Last updated **/**/201*</p>
-                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
+                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></a>
                 </div>
             </div>
             
             <div id="analysis" class="tabcontent">
                 <div class="tab-header">
                     <p>Last updated **/**/201*</p>
-                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
+                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></a>
                 </div>
             </div>
         </div>
@@ -110,62 +111,94 @@
         <div class="sidebar-container">
             <!-- Sidebar header -->
             <div class="sidebar-header">
-                <a href="#"><img src="images/icons/pin.svg" width="20" height="20"></img></a>
-                <a href="#"><img src="images/icons/share.svg" width="20" height="20"></img></a>
-                <a href="#" class="close-icon" onclick="closeLayerNav()"><img src="images/icons/close.svg" width="20" height="20"></img></a>
+                <a class="btn-sidebar" href="#"><img src="images/icons/pin.svg" width="20" height="20"></a>
+                <a class="btn-sidebar" href="#"><img src="images/icons/share.svg" width="20" height="20"></a>
+                <a class="btn-sidebar" href="#" class="close-icon" onclick="closeLayerNav()"><img src="images/icons/close.svg" width="20" height="20"></a>
             </div>
             <!-- Sidebar content -->
             <div class="sidebar-content">
                 <div class="sidebar-text">
                     <div class="sidebar-name">
-                        <h1 class="title-sidebar">Placeholder Name</h1>
-                        <p>Placeholder name - Placeholder name<br>
-                        Circa 18** - 18**</p>
+                        <h1 class="title-sidebar">Layers</h1>
+                        <p>Placeholder name - Placeholder name</p>
+                        <p>Circa 18** - 18**</p>
                     </div>
-                    <div class="sidebar-data">
-                        <h3 class="kilometers">00.000 Km</h3>
-                        <p>18** - 18**<br>
-                        <span class="text-green">+ 0,0</span>
-                        </p>
-                    </div>  
                 </div>
-                <div class="warning">
-                    <img src="images/icons/warning.svg" alt="">
-                    <p>Not all data is loaded in</p>
+                <div class="d-flex justify-content-between">
+                    <div class="warning">
+                        <img src="images/icons/warning.svg" alt="">
+                        <p>Not all data is loaded in</p>
+                    </div>
+                    <div class="warning">
+                        <img src="images/icons/warning.svg" alt="">
+                        <p>Not all data is loaded in</p>
+                    </div>
                 </div>
             </div>
         </div>
         
+        <!-- Sidebar information -->
         <div class="sidebar-info">
-            <!-- Tab links -->
-            <div class="tab">
-                <button class="tablinks" onclick="openTab(event, 'captain')"><h3>Captain</h3></button>
-                <button class="tablinks" onclick="openTab(event, 'routes')"><h3>Routes</h3></button>
-                <button class="tablinks" onclick="openTab(event, 'analysis')"><h3>Analysis</h3></button>
+            <!-- Layer 1 -->
+            <div class="layer-item d-flex align-items-center">
+                <div class="layer-status status-success"></div>
+                <div class="layer-info">
+                    <span class="layer-desc">Layer name</span>
+                    <p class="layer-title">Cities</p>
+                </div>
+                <a href="#" class="layer-button"><img src="images/icons/remove.svg" width="20" height="20"></a>
             </div>
+            <!-- Layer 2 -->
+            <div class="layer-item d-flex align-items-center">
+                <div class="layer-status status-warning"></div>
+                <div class="layer-info">
+                    <span class="layer-desc">Layer name</span>
+                    <p class="layer-title">Villages</p>
+                </div>
+                <a href="#" class="layer-button"><img src="images/icons/add.svg" width="20" height="20"></a>
+            </div>
+        </div>
+    </div>
 
-            <div class="tab-line"></div>
-
-            <!-- Tab content -->
-            <div id="captain" class="tabcontent">
-                <div class="tab-header">
-                    <p>Last updated **/**/201*</p>
-                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
-                </div>
+    <!-- Search sidebar -->
+    <div id="searchSidebar" class="selector-sidebar">
+        <div class="sidebar-container">
+            <!-- Sidebar header -->
+            <div class="sidebar-header">
+                <a class="btn-sidebar" href="#"><img src="images/icons/pin.svg" width="20" height="20"></a>
+                <a class="btn-sidebar" href="#"><img src="images/icons/share.svg" width="20" height="20"></a>
+                <a class="btn-sidebar" href="#" class="close-icon" onclick="closeSearchNav()"><img src="images/icons/close.svg" width="20" height="20"></a>
             </div>
-            
-            <div id="routes" class="tabcontent">
-                <div class="tab-header">
-                    <p>Last updated **/**/201*</p>
-                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
+            <!-- Sidebar content -->
+            <div class="sidebar-content">
+                <div class="sidebar-text">
+                    <div class="sidebar-name">
+                        <h1 class="title-sidebar">Search</h1>
+                    </div>
                 </div>
+                <form class="search-form" action="#">
+                    <input type="text">
+                </form>
             </div>
-            
-            <div id="analysis" class="tabcontent">
-                <div class="tab-header">
-                    <p>Last updated **/**/201*</p>
-                    <a class="download-icon" href="#"><img src="images/icons/download.svg" width="20" height="20"></img></a>
+        </div>
+        
+        <!-- Sidebar information -->
+        <div class="sidebar-info">
+            <!-- Layer 1 -->
+            <div class="layer-item d-flex align-items-center">
+                <div class="layer-info">
+                    <span class="layer-desc">Search results</span>
+                    <p class="layer-title">Name placeholder</p>
                 </div>
+                <a href="#" class="layer-button"><img src="images/icons/next.svg" width="20" height="20"></a>
+            </div>
+            <!-- Layer 2 -->
+            <div class="layer-item d-flex align-items-center">
+                <div class="layer-info">
+                    <span class="layer-desc">Search results</span>
+                    <p class="layer-title">Name placeholder</p>
+                </div>
+                <a href="#" class="layer-button"><img src="images/icons/next.svg" width="20" height="20"></a>
             </div>
         </div>
     </div>
