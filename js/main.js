@@ -16,6 +16,15 @@ function closeLayerNav() {
   document.getElementById("layersSidebar").style.width = "0px";
 }
 
+// Search sidebar
+function openSearchNav() {
+  document.getElementById("searchSidebar").style.width = "600px";
+}
+
+function closeSearchNav() {
+  document.getElementById("searchSidebar").style.width = "0px";
+}
+
 function openTab(evt, tabName) {
     // Declare all variables
     var i, tabcontent, tablinks;
