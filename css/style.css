@@ -4,6 +4,7 @@
 /* General */
 * {
     font-family: 'Inter', sans-serif;
+    font-size: 14px;
 }
 
 html, body {
@@ -233,6 +234,7 @@ html, body {
 
 .title-sidebar {
     color: #EEEEEE;
+    font-size: 20px;
 }
 
 .sidebar-text {
@@ -380,6 +382,7 @@ html, body {
 }
 .tabcontent-info {
     display: block;
+    width: 100%;
 }
 .tabcontent-info-title {
     color: #8A8A8A;
@@ -388,7 +391,7 @@ html, body {
     color: #eee;
     font-weight: 700;
     margin: 5px 0 0 0;
-    font-size: 20px;
+    font-size: 17px;
 }
 .tabcontent-icon {
     background-color: #2E2E2E;
@@ -403,7 +406,13 @@ html, body {
 }
 
 .tabcontent-export {
-    margin-right: 15px;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.tabcontent-product {
+    color: #e8e8e8;
 }
 
 .tabcontent-line {
