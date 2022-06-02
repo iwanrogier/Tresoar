@@ -11,6 +11,4 @@ cities.forEach(city => {
         .addTo(map)
         .bindTooltip(city.name, {permanent: true})
         .openTooltip();
-    
-    console.log("Name: " + city.name)
 });
