@@ -399,6 +399,7 @@ html, body {
     border-radius: 4px;
     z-index: 551;
     padding: 20px;
+    display: none;
 }
 
 .onboarding .btn {

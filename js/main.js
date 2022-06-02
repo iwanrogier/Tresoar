@@ -1,3 +1,18 @@
+window.onload = function() {
+  const cookies = document.cookie.split('; ');
+    var showPopup = true;
+  cookies.forEach(cookie => {
+    cookie = cookie.split("=");
+    console.log(cookie);
+    if (cookie[0] == "popup" && cookie[1] == "false") {
+            showPopup = false;
+    }
+  });
+  if (showPopup) {
+    openOnboarding();
+  }
+}
+
 // Selector sidebar
 function openNav() {
     document.getElementById("selectorSidebar").style.width = "600px";
@@ -32,6 +47,11 @@ function openOnboarding() {
 
 function closeOnboarding() {
   document.getElementById("onboarding").style.display = "none";
+
+  const cookieName = "popup";
+  const cookieValue = "false";
+  const daysToExpire = new Date(2147483647 * 1000).toUTCString();
+  document.cookie = cookieName + '=' + cookieValue + '; expires=' + daysToExpire;
 }
 
 function openTab(evt, tabName) {
@@ -54,3 +74,5 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+// Popup cookies
