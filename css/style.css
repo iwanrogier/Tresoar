@@ -129,7 +129,7 @@ html, body {
 
 .sidebar-footer {
     position: absolute;
-    bottom: 50px;
+    bottom: 25px;
 }
 
 .sidebar-icons a:hover {
