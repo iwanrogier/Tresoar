@@ -155,22 +155,28 @@
         <!-- Sidebar information -->
         <div class="sidebar-info">
             <!-- Layer 1 -->
-            <div class="layer-item d-flex align-items-center">
-                <div class="layer-status status-success"></div>
+            <div class="sidebar-item d-flex align-items-center">
+                <img class="layer-button" src="images/icons/layer-village.svg" width="32" height="32">
                 <div class="layer-info">
                     <span class="layer-desc">Layer name</span>
-                    <p class="layer-title">Cities</p>
+                    <p class="layer-title">Village</p>
                 </div>
-                <a href="#" class="layer-button"><img src="images/icons/remove.svg" width="20" height="20"></a>
+                <div class="switch d-flex justify-content-end">
+                    <input type="checkbox" name="village1" id="village1">
+                    <label for="village1"></label>
+                </div>
             </div>
             <!-- Layer 2 -->
-            <div class="layer-item d-flex align-items-center">
-                <div class="layer-status status-warning"></div>
+            <div class="sidebar-item d-flex align-items-center">
+                <img class="layer-button" src="images/icons/layer-route.svg" width="32" height="32">
                 <div class="layer-info">
                     <span class="layer-desc">Layer name</span>
-                    <p class="layer-title">Villages</p>
+                    <p class="layer-title">Routes</p>
                 </div>
-                <a href="#" class="layer-button"><img src="images/icons/add.svg" width="20" height="20"></a>
+                <div class="switch d-flex justify-content-end">
+                    <input type="checkbox" name="route1" id="route1">
+                    <label for="route1"></label>
+                </div>
             </div>
         </div>
     </div>
