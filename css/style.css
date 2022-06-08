@@ -371,6 +371,7 @@ html, body {
 }
 
 .tabcontent-item,
+.tabcontent-captain,
 .sidebar-item {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -386,11 +387,12 @@ html, body {
 }
 .tabcontent-info-title {
     color: #8A8A8A;
+    margin: 0;
 }
 .tabcontent-info-name {
     color: #eee;
     font-weight: 700;
-    margin: 5px 0 0 0;
+    margin: 0;
     font-size: 17px;
 }
 .tabcontent-icon {
@@ -420,14 +422,8 @@ html, body {
     margin-bottom: 15px;
     border: none;
     height: 2px;
-    width: 90%;
+    width: 100%;
     background: #8A8A8A;
-}
-
-.tabcontent-route {
-    display: block;
-    width: 90%;
-    align-items: center;
 }
 
 .tabcontent-route-total {
