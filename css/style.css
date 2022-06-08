@@ -396,7 +396,7 @@ html, body {
 .tabcontent-icon {
     background-color: #2E2E2E;
     color: #fff;
-    padding: 5px 15px;
+    padding: 10px 15px;
     text-decoration: none;
     border-radius: 5px;
     display: flex;
@@ -422,6 +422,27 @@ html, body {
     height: 2px;
     width: 90%;
     background: #8A8A8A;
+}
+
+.tabcontent-route {
+    display: block;
+    width: 90%;
+    align-items: center;
+}
+
+.tabcontent-route-total {
+    color: #8A8A8A;
+}
+
+.tabcontent-route-km {
+    color: #eee;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.tabcontent-route-image {
+    height: 100px;
+    width: auto;
 }
 
 /* Layers sidebar */
