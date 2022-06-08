@@ -375,6 +375,11 @@ html, body {
 
 .sidebar-item {
     margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.tabcontent-route-dates-time {
+    color: #E8E8E8;
 }
 
 /* tab content captains */
