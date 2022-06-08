@@ -381,7 +381,6 @@ html, body {
 .tabcontent-captain,
 .sidebar-item {
     background-color: #3A3A3A;
-    border-radius: 5px;
 }
 
 .tabcontent-item,
@@ -453,10 +452,6 @@ html, body {
 .tabcontent-route-image {
     height: 100px;
     width: auto;
-}
-
-.tabcontent-route-dates-time {
-    color: #E8E8E8;
 }
 
 /* Layers sidebar */
