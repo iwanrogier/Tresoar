@@ -69,6 +69,10 @@ html, body {
     justify-content: center;
 }
 
+.m-0 {
+    margin: 0;
+}
+
 /* Map */
 #map {
     width: 100%;
@@ -546,4 +550,14 @@ html, body {
     bottom: 20px;
     right: 0;
     font-size: 14px;
+}
+
+/* Analysis tab */
+.shipment-number p {
+    margin-bottom: 5px;
+}
+
+.shipment-number h4 {
+    color: #fff;
+    margin: 0;
 }
