@@ -253,6 +253,11 @@ html, body {
 }
 
 /* Leaflet controls */
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+    font-size: 16px !important;
+}
+
 .leaflet-popup-content-wrapper {
     border-radius: 4px;
 }
