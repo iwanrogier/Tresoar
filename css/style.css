@@ -577,3 +577,19 @@ html, body {
 .analysis-info .performance {
     margin-right: 80px;
 }
+
+/* Label */
+.city-label {
+    margin-top: 27px;
+    margin-left: 28px;
+    background-color: #313131;
+    opacity: 1 !important;
+    padding: 5px 15px 5px 29px;
+    font-size: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.leaflet-tooltip-pane {
+    z-index: 400;
+}

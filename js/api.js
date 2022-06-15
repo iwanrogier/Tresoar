@@ -13,6 +13,9 @@ await fetch("https://sonttol-cms.herokuapp.com/api/cities")
 cities.forEach(city => {
     L.marker([city.latitude, city.longitude], {icon: citiesIcon})
         .addTo(map)
-        .bindTooltip(city.name, {permanent: true})
+        .bindTooltip(city.name, {
+            permanent: true,
+            className: 'city-label'
+        })
         .openTooltip();
 });

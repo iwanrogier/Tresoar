@@ -29,9 +29,9 @@ L.control.fullscreen({
     position: 'bottomleft'
 }).addTo(map);
 
-/*/ Popup with longitude latitude
+// Popup with longitude latitude
 function onMapClick(e) {
     alert(e.latlng);
 }
 
-map.on('click', onMapClick);*/
+map.on('click', onMapClick);
