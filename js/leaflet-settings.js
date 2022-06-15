@@ -21,7 +21,7 @@ L.tileLayer('images/maps/Map-Europe/{z}/{x}/{y}.png', {
     noWrap: true,
 }).addTo(map);
 
-// Zoom bottom left
+// Controls bottom left
 L.control.zoom({
      position: 'bottomleft'
 }).addTo(map);

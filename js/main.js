@@ -1,3 +1,4 @@
+// Remember when onboarding has been closed
 window.onload = function() {
   const cookies = document.cookie.split('; ');
     var showPopup = true;
@@ -74,5 +75,3 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-
-// Popup cookies
